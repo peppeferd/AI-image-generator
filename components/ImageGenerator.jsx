@@ -1,6 +1,6 @@
 'use client'
 import React, { useRef, useState } from 'react'
-import default_image from '../assets/default_image.svg'
+import default_image from '../assets/homepic.png'
 import Image from 'next/image'
 import 'dotenv/config'
 const ImageGenerator = () => {
