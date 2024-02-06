@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    domains: ['localhost', 'oaidalleapiprodscus.blob.core.windows.net'],
+  },
+  env: {
+    OPENAI_API_KEY: process.env.OPENAI_API_KEY,
+  },
+}
 
-export default nextConfig;
+export default nextConfig
