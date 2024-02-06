@@ -38,9 +38,11 @@ const ImageGenerator = () => {
 
   return (
     <div className="ai-image-generator text-center">
-      <div className="header text-3xl ">
-        Ai image <span> generator</span>
-      </div>
+      <a href="/">
+        <div className="header text-3xl ">
+          Ai image <span> generator</span>
+        </div>
+      </a>
       <div className="img-loading">
         <div className="image">
           <Image
